@@ -23,7 +23,19 @@ After you have read this document, please provide us with your feedback **[here]
 
 - When you believe you have done an assignment to the best of your abilities, let us know! Make sure to send an email to `dyllanmccreary@gmail.com` with your fork link & which assignment you are submitting. Ideally provide us with some parts you struggled with, were proud of, and any questions/comments you'd like for us to address. 
 
-## Assignments
+## Assignment Routes
+
+There are 2 assignment "routes" currently available as well as one independent assignment. You may skip prerequisites, more detailed instructions will be found in each individual description section of applicable assignments.
+
+If you choose to skip prerequisites for route #1, you will have to find a substitute dataset. to complete assignments #2/3 OR work with a partner who is willing to provide their dataset for you.
+
+For route #2, you may skip #4 all together, however the dataset you will be working with will be sub-optimally structured.
+
+### Recommended Usage:
+
+![Flow chart visualization](https://i.gyazo.com/96e3c8c1f3dad3f6d8248ebe956dddb9.png)
+
+## Assignment Outlines
 
 ### 1. _Custom Data Generation_
 
@@ -167,5 +179,4 @@ After you have read this document, please provide us with your feedback **[here]
 ---
 
 After you have read this document, please provide us with your feedback **[here](https://forms.gle/YuGLJdDTN4meMFDU8)**. Thank you!
-
 
