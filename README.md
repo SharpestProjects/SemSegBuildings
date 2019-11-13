@@ -27,7 +27,7 @@ After you have read this document, please provide us with your feedback **[here]
 
 There are 2 assignment "routes" currently available as well as one independent assignment. You may skip prerequisites, more detailed instructions will be found in each individual description section of applicable assignments.
 
-If you choose to skip prerequisites for route #1, you will have to find a substitute dataset. to complete assignments #2/3 OR work with a partner who is willing to provide their dataset for you.
+If you choose to skip prerequisites for route #1, you will have to find a [substitute dataset](https://www.kaggle.com/datasets?utm_medium=paid&utm_source=google.com+search&utm_campaign=datasets&gclid=CjwKCAiA8K7uBRBBEiwACOm4dwak0dWJvCmbhuC7_bBVoyzbscP9oOlO6yIoFPxgCUuAJA3EgoAbABoCaqkQAvD_BwE). to complete assignments #2/3 OR work with a partner who is willing to provide their dataset for you.
 
 For route #2, you may skip #4 all together, however the dataset you will be working with will be sub-optimally structured.
 
