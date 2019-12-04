@@ -1,0 +1,31 @@
+[development]
+slim_handler = true
+app_function = "terracotta.server.app.app"
+aws_region = "us-east-2"
+profile_name = "default"
+project_name = "tc-test"
+runtime = "python3.6"
+s3_bucket = "semsegbuildings"
+exclude = [
+    "*.gz",
+    "*.rar",
+    "boto3*",
+    "botocore*",
+    "s3transfer*",
+    "awscli*",
+    ".mypy_cache",
+    ".pytest_cache",
+    ".eggs"
+]
+debug = true
+log_level = "DEBUG"
+xray_tracing = true
+
+timeout_seconds = 30
+memory_size = 500
+
+    [development.aws_environment_variables]
+    TC_DRIVER_PATH = "s3://semsegbuildings/tc.sqlite"
+    TC_DRIVER_PROVIDER = "sqlite-remote"
+    TC_UPSAMPLING_METHOD = "cubic"
+    TC_XRAY_PROFILE = "true"
