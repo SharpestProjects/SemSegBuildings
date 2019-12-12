@@ -2,5 +2,6 @@ Flask==1.1.1
 flask_bootstrap==3.3.7.1
 flask_pagedown==0.2.2
 flask_wtf==0.14.2
+folium==0.10.1
 rastervision==0.10.0
 WTForms==2.2.1

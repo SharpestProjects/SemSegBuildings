@@ -1,4 +1,3 @@
 # SemSegBuildings_Flask
 
-For this project I will be working with [rastervision framework](https://docs.rastervision.io/en/0.10/index.html) to perform semantic segmentation for buildings in satelite imagery.
- 
+For this project I will be working with Computer Vision across three different frameworks(all built off PyTorch). Fast.ai will be the first one as I am working through that course currently. Then there will be [azavea's raster-vision](https://github.com/azavea/raster-vision) which is run off of a slightly modified version of their docker container setup(pytorch-gpu for training and pytorch-cpu for running inferences(thank you GCP free credits). Finally, there will be [Mapbox's robosat](https://github.com/mapbox/robosat). I will be attempting to do tranfer learning from raster-vision's pre-trained models if possible but if it becomes more burden than it is worth I will forgo that approach. 

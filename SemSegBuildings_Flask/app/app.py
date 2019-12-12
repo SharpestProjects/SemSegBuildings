@@ -1,6 +1,7 @@
 import rastervision as rv
 import os
 from flask_bootstrap import Bootstrap
+import folium
 
 #### This needs to be seperated out ####
 from flask import Flask, request, render_template
@@ -29,11 +30,16 @@ bootstrap.init_app(app)
 SECRET_KEY = os.urandom(32)
 app.config['SECRET_KEY'] = SECRET_KEY
 
-@app.route('/', methods=['GET'])
-def run():
+@app.route('/', methods=['GET', 'POST'])
+def index():
     if request.method == 'GET':
         form = PostForm()
         return render_template('index.html', form=form)
+
+@app.route('/map', methods=['GET'])
+def map():
+    return render_template('map.html')
+
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
