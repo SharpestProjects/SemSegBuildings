@@ -1,6 +1,7 @@
-SemSegBuildings_Flask/app/predict_package.zip
+SemSegBuildings/app/predict_package.zip
 bin/
 include/
 lib/
 *.tif
-SemSegBuildings_Flask/.ipynb_checkpoints/
+SemSegBuildings/.ipynb_checkpoints/
+SemSegBuildings/notebook_env.db
